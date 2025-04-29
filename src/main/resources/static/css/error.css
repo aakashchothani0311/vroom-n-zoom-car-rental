@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.error-wrapper {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(#ffffff, #e4edff);
+}
+
+.error-container {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+	background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    padding: 60px 20px;
+    color: #333;
+    width: fit-content;
+}
+
+.error-container h1 {
+    font-size: 2.5em;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.error-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}

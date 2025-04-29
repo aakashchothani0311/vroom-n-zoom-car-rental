@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.booking-status {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    background: radial-gradient(#ffffff, #e4edff);
+    min-height: 80vh;
+}
+
+.confirmation-box {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+}
+
+.success-message {
+    font-size: 1.8em;
+    color: #00a472;
+    margin-bottom: 10px;
+}
+
+.confirmation-text {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.booking-summary-card {
+    text-align: left;
+    background: #f7faff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #d3e2f0;
+}
+
+.summary-highlight {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #1f1f2e;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.car-fuel {
+    font-size: 0.95em;
+    color: #888;
+    font-weight: 400;
+}
+
+.summary-row {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
+
+.summary-label {
+    width: 140px;
+    font-weight: 600;
+    color: #444;
+}
+
+.summary-value {
+    flex: 1;
+    color: #333;
+}
+
+.redirect-note {
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.redirect-note a {
+    margin-left: 8px;
+    color: #00c4a8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.redirect-note a:hover {
+    text-decoration: underline;
+}
+
+#countdown {
+    font-weight: bold;
+    color: #00a472;
+}

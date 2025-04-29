@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.car-detail-wrapper {
+	display: flex;
+	justify-content: center;
+	background: radial-gradient(#ffffff, #e4edff);
+	height: 100vh;
+}
+
+.car-detail-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    gap: 40px;
+    padding: 20px;
+    border: 2px solid #d3d3d3;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.car-image-section img {
+    width: 500px;
+    height: auto;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 2px solid #d3d3d3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.car-info-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.car-info-section h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #1f1f2e;
+}
+
+.car-info-section p {
+    margin: 8px 0;
+    color: #444;
+}
+
+.car-info-section .rate {
+    font-size: 1.5em;
+    color: #007f5f;
+    font-weight: bold;
+}
+
+.status.available {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.status.unavailable {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.car-rating .star {
+    font-size: 1.3em;
+    color: #ccc;
+}
+
+.car-rating .star.filled {
+    color: #f5a623;
+}

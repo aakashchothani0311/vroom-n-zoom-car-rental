@@ -1,0 +1,53 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Skip car images (placeholder/media)
+src/main/resources/static/images/cars/*.png
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Hibernate specific (optional, if using generated files or temp files)
+*.hbm.xml~
+*.db
+*.mv.db
+*.trace.db
+
+# Application specific
+*.war
+*.jar
+
+# Others
+bin/
+tmp/
+
